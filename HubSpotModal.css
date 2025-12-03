@@ -1,0 +1,104 @@
+.hubspot-modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.hubspot-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.hubspot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.hubspot-close {
+  color: #6b7280;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hubspot-close:hover {
+  color: #1f2937;
+}
+
+.deal-search-container {
+  margin-bottom: 20px;
+}
+
+.deal-search-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3b82f6;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.deal-results {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.deal-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.deal-item:hover {
+  background-color: #f3f4f6;
+}
+
+.selected-deal-info {
+  margin-top: 15px;
+}
+
+.selected-deal-details {
+  padding: 10px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.hubspot-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.hubspot-status {
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.hubspot-status.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.hubspot-status.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
