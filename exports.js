@@ -1,4 +1,4 @@
-// Note: You'll need to install jsPDF and jsPDF-AutoTable
+// Note: We need to install jsPDF and jsPDF-AutoTable
 // npm install jspdf jspdf-autotable
 
 import jsPDF from 'jspdf';
