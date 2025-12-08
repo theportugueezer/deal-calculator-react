@@ -1,6 +1,6 @@
 # Deal Return Calculator - React Version 2.0
 
-A professional React application for generating accurate quotes and analyzing deal profitability with multi-currency support, PDF/CSV exports, and HubSpot integration.
+React application for generating accurate quotes and analysing deal profitability with multi currency support, PDF/CSV exports, and HubSpot integration (placeholder).
 
 ## 🚀 Features
 
@@ -73,7 +73,7 @@ deal-calculator-react/
 
 3. **Update Product Data** (Important!)
    
-   The current `src/data/constants.js` contains only a sample of products. You need to add all 327 products from your original HTML file. Copy the complete `PRODUCTS` array from the HTML and paste it into `constants.js`.
+   The current `src/data/constants.js` contains only a sample of products - UPDATED
 
 4. **Start the development server**
    ```bash
